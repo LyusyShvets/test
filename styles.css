@@ -1563,7 +1563,8 @@ textarea {
   transform: translateY(1px);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
 }
-@media (orientation: landscape) {
+
+@media (max-width: 767px) and (orientation: landscape) {
   .sub-menu a {
     font-size: 1.2rem;
   }
